@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14",
+  "torch": "2.14.1",
+  "torchvision": "0.29.1",
+  "numpy": "2.3.5",
+  "Pillow": "11.3.0",
+  "pytest": "9.1.1",
+  "device": "cpu",
+  "original_artifact_sha256": {
+    "original_training.py": "cde96d9f8cf362b7b8c6d84420ab04f9f27e34c2ae7487e26228ab4fb9bd1d30",
+    "best_model.pth": "71f07ad1ecdbfc2dbf173c6a89975045b7c3fdcfb1297fee9416ced3223d8b5d"
+  },
+  "original_checkpoint_classes": 12,
+  "trainable_parameters": 457676,
+  "historical_metrics_reproduced": false,
+  "verification_date": "2026-10-03",
+  "tests_passed": 5,
+  "cpu_training_and_prediction_smoke_test": "passed",
+  "original_architecture_prediction_equivalence": "exact equality on synthetic CPU input",
+  "checkpoint_loaded_on": "cpu"
+}
